@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png" />
+
+    <title>Frontend Mentor | E-commerce product page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <nav class="navbar">
+          <div class="menu">
+            <span class="menu-btn"></span>
+            <img
+              src="./images/logo.svg"
+              class="logo"
+              alt="logo"
+              draggable="false" />
+            <ul>
+              <li>Collection</li>
+              <li>Men</li>
+              <li>Women</li>
+              <li>About</li>
+              <li>Content</li>
+            </ul>
+          </div>
+          <div class="total-price">
+            <div class="shop-btn">
+              <span></span>
+            </div>
+            <div class="user"></div>
+            <div class="cart active">
+              <h5>Cart</h5>
+              <div class="empty active">
+                <span>Your cart is empty.</span>
+              </div>
+              
+            </div>
+          </div>
+        </nav>
+        <div class="main">
+          <div class="slider">
+            <div class="main-slider-photo">
+              <span class="prev"></span>
+              <span class="next"></span>
+            </div>
+            <ul class="sub-slider-photo">
+              <li>
+                <img src="./images/image-product-1-thumbnail.jpg" alt="" />
+              </li>
+              <li>
+                <img src="./images/image-product-2-thumbnail.jpg" alt="" />
+              </li>
+              <li>
+                <img src="./images/image-product-3-thumbnail.jpg" alt="" />
+              </li>
+              <li>
+                <img src="./images/image-product-4-thumbnail.jpg" alt="" />
+              </li>
+            </ul>
+            <div class="view-slider">
+              <div class="vs-main-photo">
+                <span class="vw-close"></span>
+                <span class="prev"></span>
+                <span class="next"></span>
+              </div>
+              <ul>
+                <li>
+                  <img src="./images/image-product-1-thumbnail.jpg" alt="" />
+                </li>
+                <li>
+                  <img src="./images/image-product-2-thumbnail.jpg" alt="" />
+                </li>
+                <li>
+                  <img src="./images/image-product-3-thumbnail.jpg" alt="" />
+                </li>
+                <li>
+                  <img src="./images/image-product-4-thumbnail.jpg" alt="" />
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="post-info">
+            <div class="post-header">
+              <h5>Sneakers Company</h5>
+              <h5>Fall Limited Edition Sneakers</h5>
+            </div>
+            <div class="parag">
+              <p>
+                These low-profile sneakers are your perfect casual wear
+                companion. Featuring a durable rubber outer sole, they'll
+                withstand everything the weather can offer.
+              </p>
+              <div class="price">
+                <span>$125.00</span>
+                <span>$250.00</span>
+              </div>
+            </div>
+            <div class="btn">
+              <div class="count">
+                <span class="minus"></span>
+                <small>0</small>
+                <span class="plus"></span>
+              </div>
+              <button>Add to cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="menubar">
+        <div class="sub-menu">
+          <span class="sb-close"></span>
+          <ul>
+            <li>Collection</li>
+            <li>Men</li>
+            <li>Women</li>
+            <li>About</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+      </div>
+    </main>
+
+    <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+    <script src="./js/app.js"></script>
+  </body>
+</html>
