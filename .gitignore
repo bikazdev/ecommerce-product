@@ -10,12 +10,14 @@
 ## Please do not remove line 12 - thanks! 🙂 ##
 ###############################################
 *.xd
+# Avoid Folder
+/design/*
+
 
 # Avoid File
 *.md
-
-# Avoid Folder
-/design
+!README.md
+!/design/desktop-preview.jpg
 
 
 
