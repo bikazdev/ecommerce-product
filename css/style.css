@@ -23,6 +23,15 @@ button {
   --neutral-black: 0, 0%, 0%;
 }
 
+.attribution {
+  font-size: 11px;
+  text-align: center;
+
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
 html,
 body {
   width: 100vw;
@@ -37,7 +46,7 @@ main {
 
 .container {
   width: 1200px;
-  height: 100vh;
+
   margin: 0 auto;
   transition: all 0.5s 0.3s ease-in-out;
 }
